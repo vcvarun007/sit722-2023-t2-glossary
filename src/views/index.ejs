@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SIT722 DevOps Glossary</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <h1>SIT722 DevOps Glossary</h1>
+    <h3>
+      Welcome to my website showing a collection of DevOps terms and their brief
+      descriptions.
+    </h3>
+    <table>
+      <tr>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+      </tr>
+      <% tableData.forEach(entry => { %>
+      <tr>
+        <td><%= entry.id %></td>
+        <td><%= entry.term %></td>
+        <td><%= entry.description %></td>
+        <td><%= entry.references %></td>
+      </tr>
+      <% }); %>
+    </table>
+  </body>
+</html>
