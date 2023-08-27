@@ -171,6 +171,86 @@ const tableData = [
     references:
       "“What is ChatOps? | Definition from TechTarget,” IT Operations. https://www.techtarget.com/searchitoperations/definition/ChatOps#:~:text=ChatOps%2C%20sometimes%20known%20as%20conversation (accessed Aug. 06, 2023).",
   },
+  {
+    id: 21,
+    term: "Container Orchestration",
+    description:
+      "Managing the deployment, scaling, and operation of containers across a cluster of machines. Kubernetes and Docker Swarm are common container orchestration tools.",
+    references:
+      "“What Is container orchestration,” Google Cloud. https://cloud.google.com/discover/what-is-container-orchestration#:~:text=Container%20orchestration%20automatically%20provisions%2C%20deploys",
+  },
+  {
+    id: 22,
+    term: "Infrastructure Automation",
+    description:
+      "Automating the provisioning and configuration of infrastructure components, such as servers, databases, and networks, to ensure consistency and reduce manual effort.",
+    references:
+      "“Infrastructure Automation & DevOps,” Chakray. https://www.chakray.com/initiatives/infrastructure-automation-devops/#:~:text=Infrastructure%20Automation%20refers%20largely%20to (accessed Aug. 27, 2023). ‌",
+  },
+  {
+    id: 23,
+    term: "Elasticity",
+    description:
+      "The ability of a system to dynamically allocate and release resources based on demand. It's like a system's ability to grow or shrink as needed.",
+    references:
+      "“Elasticity - AWS Well-Architected Framework,” wa.aws.amazon.com. https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.elasticity.en.html#:~:text=The%20ability%20to%20acquire%20resources ‌",
+  },
+  {
+    id: 24,
+    term: "Release Pipeline",
+    description:
+      "An automated sequence of stages that code changes pass through, from development to production. It includes building, testing, and deployment steps.",
+    references:
+      "“Release Pipeline in DevOps -Professional-Devops.com,” www.professional-devops.com. https://www.professional-devops.com/release-pipeline.html#:~:text=A%20release%20pipeline%20is%20a (accessed Aug. 27, 2023). ‌",
+  },
+  {
+    id: 25,
+    term: "Compliance as Code",
+    description:
+      "Applying compliance requirements and policies to infrastructure using code and automation. This ensures that the infrastructure adheres to security and regulatory standards.",
+    references:
+      "“Decoder: Compliance as code,” Thoughtworks. https://www.thoughtworks.com/en-au/insights/decoder/c/compliance-as-code#:~:text=Compliance%20as%20code%20aims%20to (accessed Aug. 27, 2023). ‌",
+  },
+  {
+    id: 26,
+    term: "GitOps",
+    description:
+      "A methodology where the entire system's infrastructure and application configurations are managed using Git version control. Changes are made through pull requests, promoting consistency and traceability.",
+    references:
+      "“What is GitOps? | GitLab,” about.gitlab.com. https://about.gitlab.com/topics/gitops/ ‌",
+  },
+  {
+    id: 27,
+    term: "Serverless Computing",
+    description:
+      "A cloud computing model where developers focus on writing code without managing the underlying infrastructure. The cloud provider automatically scales and manages resources.",
+    references:
+      "K. Vyas, “Improving DevOps with Serverless Computing | ITBE,” IT Business Edge, Apr. 08, 2022. https://www.itbusinessedge.com/development/devops-serverless-computing/#:~:text=Serverless%20computing%20refers%20to%20outsourcing (accessed Aug. 27, 2023). ‌",
+  },
+  {
+    id: 28,
+    term: "Immutable Deployment",
+    description:
+      "Releasing software by creating new instances of the entire environment instead of updating existing ones. This reduces the risk of configuration drift and promotes consistency.",
+    references:
+      "“Immutable Infrastructure -Professional-Devops.com,” www.professional-devops.com. https://www.professional-devops.com/immutable-infrastructure.html#:~:text=Immutable%20infrastructure%20means%20servers%20that (accessed Aug. 27, 2023).",
+  },
+  {
+    id: 29,
+    term: "Configuration Drift",
+    description:
+      "The gradual and unintentional divergence of configurations between environments, leading to inconsistencies and potential issues in the system.",
+    references:
+      "“Configuration Drift: Why It’s Bad and How to Eliminate It,” Aqua. https://www.aquasec.com/cloud-native-academy/vulnerability-management/configuration-drift/#:~:text=Configuration%20drift%20is%20when%20the%20configuration%20of%20an%20environment%20%E2%80%9Cdrifts (accessed Aug. 27, 2023). ‌",
+  },
+  {
+    id: 30,
+    term: "Blue-Green Testing",
+    description:
+      "Similar to blue-green deployment, this approach involves testing a new version of an application (green) alongside the existing one (blue) before switching traffic.",
+    references:
+      "“Blue/green deployment - Introduction to DevOps on AWS,” docs.aws.amazon.com. https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/blue-green-deployments.html#:~:text=Blue%2Fgreen%20deployments%20enable%20you (accessed Aug. 27, 2023). ‌",
+  },
 ];
 
 // Routes
@@ -179,7 +259,7 @@ app.get("/", (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3030;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
