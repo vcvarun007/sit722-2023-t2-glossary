@@ -251,6 +251,86 @@ const tableData = [
     references:
       "“Blue/green deployment - Introduction to DevOps on AWS,” docs.aws.amazon.com. https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/blue-green-deployments.html#:~:text=Blue%2Fgreen%20deployments%20enable%20you (accessed Aug. 27, 2023). ‌",
   },
+  {
+    id: 31,
+    term: "Infrastructure as Code (IaC) with Terraform",
+    description:
+      "Using Terraform to define and provision infrastructure using declarative code, allowing for automated and consistent deployment of resources across different environments.",
+    references:
+      "“What is Terraform & Infrastructure as Code (IaC)?,” www.pluralsight.com. https://www.pluralsight.com/resources/blog/cloud/what-is-terraform-infrastructure-as-code-iac#:~:text=Infrastructure%20as%20Code%20tools%20like (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 32,
+    term: "Terraform Provider",
+    description:
+      "A plugin in Terraform that enables interaction with a specific cloud or service provider, allowing Terraform to manage resources in that environment.",
+    references:
+      "“Terraform Registry,” registry.terraform.io. https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 33,
+    term: "Terraform State",
+    description:
+      "A representation of the deployed infrastructure in Terraform. It contains information about the resources and their current state in the target environment.",
+    references:
+      "TomArcherMsft, “Store Terraform state in Azure Storage,” learn.microsoft.com, May 08, 2023. https://learn.microsoft.com/en-us/azure/developer/terraform/store-state-in-azure-storage?tabs=azure-cli (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 34,
+    term: "Terraform Modules",
+    description:
+      "Reusable components in Terraform that encapsulate a set of resources and their configurations, promoting code modularity and maintainability.",
+    references:
+      "R. DevOps, “Creating Reusable Terraform Modules for Azure and Best Practices,” Medium, Mar. 07, 2023. https://medium.com/@RockDevOps/creating-reusable-terraform-modules-for-azure-and-best-practices-ba347d60e93e#:~:text=Terraform%20is%20a%20popular%20open (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 35,
+    term: "Terraform Plan",
+    description:
+      "A command in Terraform that generates an execution plan, showing the changes that will be applied to the infrastructure when terraform apply is run.",
+    references:
+      "“Automating infrastructure deployments in the Cloud with Terraform and Azure Pipelines,” azuredevopslabs.com. https://azuredevopslabs.com/labs/vstsextend/terraform/ (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 36,
+    term: "Remote Backends",
+    description:
+      "Storage locations where Terraform stores its state files remotely, allowing for collaboration among team members and maintaining a consistent state.",
+    references:
+      "A. Azad, “Terraform Remote Backend with Azure Storage,” Medium, Mar. 17, 2023. https://blog.devops.dev/terraform-remote-backend-with-azure-storage-ec2c13e7ace4 (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 37,
+    term: "Terraform Variables",
+    description:
+      "Parameters in Terraform configurations that allow for customization of resource attributes, making configurations more flexible and reusable.",
+    references:
+      "T. Thornton, “Creating Terraform Variables from Azure DevOps Pipeline Variables,” Thomas Thornton - Microsoft Azure MVP - HashiCorp Ambassador, Jun. 02, 2022. https://thomasthornton.cloud/2022/06/02/creating-terraform-variables-from-azure-devops-pipeline-variables/ (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 38,
+    term: "Terraform Workspaces",
+    description:
+      "A feature in Terraform that allows for the creation of multiple, isolated environments within a single configuration to manage resources separately.",
+    references:
+      "“Manage multiple environments with Terraform workspaces | TechTarget,” IT Operations. https://www.techtarget.com/searchitoperations/tutorial/Manage-multiple-environments-with-Terraform-workspaces#:~:text=Workspaces%20are%20a%20built%2Din (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 39,
+    term: "Terraform Cloud",
+    description:
+      "A hosted service provided by HashiCorp that offers collaboration, remote state storage, and additional features for managing Terraform configurations.",
+    references:
+      "“Azure DevOps Services - VCS Providers - Terraform Cloud | Terraform | HashiCorp Developer,” Azure DevOps Services - VCS Providers - Terraform Cloud | Terraform | HashiCorp Developer. https://developer.hashicorp.com/terraform/cloud-docs/vcs/azure-devops-services (accessed Sep. 16, 2023). ‌",
+  },
+  {
+    id: 40,
+    term: "Terraform Enterprise",
+    description:
+      "An advanced version of Terraform Cloud designed for larger organizations, offering additional features like role-based access control, private module registry, and more.",
+    references:
+      "“Azure DevOps Services - VCS Providers - Terraform Enterprise | Terraform | HashiCorp Developer,” Azure DevOps Services - VCS Providers - Terraform Enterprise | Terraform | HashiCorp Developer. https://developer.hashicorp.com/terraform/enterprise/vcs/azure-devops-services (accessed Sep. 16, 2023). ‌",
+  },
 ];
 
 // Routes
