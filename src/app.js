@@ -331,6 +331,86 @@ const tableData = [
     references:
       "“Azure DevOps Services - VCS Providers - Terraform Enterprise | Terraform | HashiCorp Developer,” Azure DevOps Services - VCS Providers - Terraform Enterprise | Terraform | HashiCorp Developer. https://developer.hashicorp.com/terraform/enterprise/vcs/azure-devops-services (accessed Sep. 16, 2023). ‌",
   },
+  {
+    id: 41,
+    term: "Kubernetes (K8s)",
+    description:
+      "An open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.",
+    references:
+      "“Overview,” Kubernetes. https://kubernetes.io/docs/concepts/overview/ ‌",
+  },
+  {
+    id: 42,
+    term: "Pod",
+    description:
+      "The smallest deployable unit in Kubernetes, representing one or more containers that are tightly coupled and share resources.",
+    references:
+      "“Pods,” Kubernetes. https://kubernetes.io/docs/concepts/workloads/pods/ ‌",
+  },
+  {
+    id: 43,
+    term: "Node",
+    description:
+      "A physical or virtual machine within a Kubernetes cluster that can run one or more pods.",
+    references:
+      "“Viewing Pods and Nodes,” Kubernetes. https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/#:~:text=A%20Node%20is%20a%20worker ‌",
+  },
+  {
+    id: 44,
+    term: "Cluster",
+    description:
+      "A collection of nodes that together form a single compute resource where containers are deployed.",
+    references:
+      "“Overview,” Kubernetes. https://kubernetes.io/docs/concepts/overview/ ‌",
+  },
+  {
+    id: 45,
+    term: "Namespace",
+    description:
+      "A way to divide cluster resources between multiple users or teams, providing isolation and organizational benefits.",
+    references:
+      "“Namespaces,” Kubernetes. https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ ‌",
+  },
+  {
+    id: 46,
+    term: "Service",
+    description:
+      "An abstraction that defines a set of pods and a way to access them, ensuring that the workload remains accessible even if individual pods fail.",
+    references:
+      "“Service,” Kubernetes. https://kubernetes.io/docs/concepts/services-networking/service/ ‌",
+  },
+  {
+    id: 47,
+    term: "Deployment",
+    description:
+      "A Kubernetes resource that manages a set of identical pods, ensuring they are always available and in the desired state.",
+    references:
+      "“Deployments,” Kubernetes. https://kubernetes.io/docs/concepts/workloads/controllers/deployment/ ‌",
+  },
+  {
+    id: 48,
+    term: "Ingress",
+    description:
+      "An API object that manages external access to the services in a Kubernetes cluster, typically HTTP.",
+    references:
+      "“Kubernetes Ingress with Nginx Example - Kubernetes Book,” matthewpalmer.net. https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html#:~:text=In%20Kubernetes%2C%20an%20Ingress%20is (accessed Sep. 24, 2023). ‌",
+  },
+  {
+    id: 49,
+    term: "Persistent Volume (PV)",
+    description:
+      "A piece of storage in the cluster that has been provisioned by an administrator, available for use by pods.",
+    references:
+      "Y. P. Evangelist Product, “Kubernetes Persistent Volume Claims Explained,” bluexp.netapp.com. https://bluexp.netapp.com/blog/cvo-blg-kubernetes-persistent-volume-claims-explained#:~:text=A%20Kubernetes%20persistent%20volume%20(PV (accessed Sep. 24, 2023). ‌",
+  },
+  {
+    id: 50,
+    term: "Custom Resource Definition (CRD)",
+    description:
+      "An extension mechanism in Kubernetes that enables users to define custom resources and their behavior.",
+    references:
+      "“Custom Resources,” Kubernetes. https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#:~:text=CRDs%20allow%20users%20to%20create (accessed Sep. 24, 2023). ‌",
+  },
 ];
 
 // Routes
